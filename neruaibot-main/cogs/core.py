@@ -109,7 +109,7 @@ class Core(commands.Cog):
             return
         await interaction.response.send_message("Initiating update. The bot will restart shortly...")
         target_dir = "/home/server/neruaibot/"
-        repo_url = "https://github.com/pancakes-proxy/mikuaibot.git"
+        repo_url = "https://github.com/pancakes-proxy/mikuai.git"
         restart_script = "/home/server/neruaibot/bot.py"
 
         try:
