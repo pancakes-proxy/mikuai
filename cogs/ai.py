@@ -44,7 +44,7 @@ class AICog(commands.Cog):
 
         # Default configuration
         self.default_config = {
-            "model": "google/gemma-7b-it",
+            "model": "google/gemma-3-12b-it:free",
             "temperature": 0.75, # Slightly increased default temperature
             "max_tokens": 1500, # Increased default max tokens
             "top_p": 0.9,
