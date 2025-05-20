@@ -108,9 +108,9 @@ class Core(commands.Cog):
             await interaction.response.send_message("You do not have permission to run this command.", ephemeral=True)
             return
         await interaction.response.send_message("Initiating update. The bot will restart shortly...")
-        target_dir = "/home/server/neruaibot/"
+        target_dir = "/home/server/mikuai/"
         repo_url = "https://github.com/pancakes-proxy/mikuai.git"
-        restart_script = "/home/server/neruaibot/bot.py"
+        restart_script = "/home/server/mikuai/bot.py"
 
         try:
             if os.path.exists(target_dir):
